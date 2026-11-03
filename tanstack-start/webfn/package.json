@@ -1,0 +1,8 @@
+{
+  "name": "tss-rsc-webfn-deploy",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "compression": "1.8.2"
+  }
+}
