@@ -89,3 +89,7 @@ Send a browser `User-Agent` when benchmarking TanStack Start: it waits for every
 ## Cleanup
 
 Deploys create a Web Function, an IAM role (`awscli-lambdaweb-<name>`), and a versioned S3 bucket per Region. Delete the function with `aws lambda-web delete-web-function --function-name <name> --region <region>`, then the role, the bucket's object versions, and the bucket. Disable a CloudFront distribution before deleting it, then delete the two custom policies.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
